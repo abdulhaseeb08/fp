@@ -1,6 +1,6 @@
 {
-  "name": "@carbonteq/fp",
-  "version": "0.7.0",
+  "name": "joji-ct-fp",
+  "version": "0.7.7",
   "description": "FP utils",
   "author": "Arslan <rslnkrmt2552@gmail.com>",
   "main": "lib/index.js",
@@ -9,22 +9,23 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "node": {
+    ".": {
       "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
       "import": "./dist/index.js"
     }
   },
-  "files": ["/dist"],
-  "scope": "@carbonteq",
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/carbonteq/fp"
+    "url": "https://github.com/abdulhaseeb08/fp"
   },
   "bugs": {
-    "url": "https://github.com/carbonteq/fp/issues"
+    "url": "https://github.com/abdulhaseeb08/fp/issues"
   },
-  "homepage": "https://github.com/carbonteq/fp#readme",
+  "homepage": "https://github.com/abdulhaseeb08/fp#readme",
   "sideEffects": false,
   "publishConfig": {
     "access": "public",
